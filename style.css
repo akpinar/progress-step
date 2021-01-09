@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    
+
+}
+
+.daire{
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.active{
+    background-color: brown;
+    color: azure;
+}
+
+.divider {
+  flex-grow: 1  ;
+  border-bottom: 1px solid black;
+  margin: 5px;
+
+}
+
+.divideractive {
+    flex-grow: 1  ;
+    border-bottom: 5px solid brown;
+    margin: 5px;
+    transition: 150ms ease;
+  } 
+
